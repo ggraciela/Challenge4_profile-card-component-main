@@ -18,3 +18,144 @@ font-family: 'Kumbh Sans', sans-serif;
 */
 
 
+html {
+    background-color: hsl(185, 75%, 39%);
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif; 
+}
+
+
+.box {
+    position: relative;
+    background-color: white;
+    width: 350px;
+    border-radius: 15px;
+}
+
+
+.bg {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position: absolute;
+    opacity: 1;
+}
+
+.overlay {
+    width: 350px;
+    height: 140px;
+    background-color: hsl(185, 59%, 54%);
+    opacity: 0.6;
+    position: relative;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.profpic {
+    border-radius: 48px;
+    border: 5px solid white;
+    position: absolute;
+    left: 121px;
+    top: 87px;
+}
+
+.texts {
+    text-align: center;
+    padding-top: 75px;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 22px;
+    color: hsl(229, 23%, 23%);
+}
+
+.age {
+    font-size: 22px;
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+    padding-left: 7px;
+}
+
+.city {
+    color: hsl(227, 10%, 46%);
+    letter-spacing: 1px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+
+hr {
+    color: hsl(0, 0%, 59%);
+    opacity: 0.5;
+    width: 320px;
+}
+
+h3 {
+    color: hsl(229, 23%, 23%);
+}
+
+div {
+    color: hsl(227, 10%, 46%);
+    letter-spacing: 2px;
+    font-size: 11px;
+}
+
+.lastrow {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 55px);
+    padding: 0px 30px;
+}
+
+
+
+
+@media screen and (max-width: 420px) {
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+    .topleft {
+        position: absolute;
+        top: -50%;
+        left: -100%;
+
+        zoom: 0.5;
+    }
+
+    .bottomright {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        
+        zoom: 0.5;
+    }
+
+    .box {
+        zoom: 0.8;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+
+@media screen and (min-width: 421px) {
+    .topleft {
+        position: absolute;
+        top: -30%;
+        left: -10%;
+
+    }
+
+    .bottomright {
+
+    }
+
+    .box {
+
+    }
+}
