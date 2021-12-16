@@ -1,9 +1,9 @@
 # About
 4th practice project [HTML / CSS] from FrontEnd Mentor
 
-Completed in: 
+Completed in: ~2h 15mins
 <br />
-Over the span of ? days
+Over the span of 2 days
 <br />
 <br />
 <br />
