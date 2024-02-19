@@ -12,4 +12,4 @@
 <img width="1440" alt="Final desktop profile-card-component-main" src="https://user-images.githubusercontent.com/94437215/146400739-2a75b0b1-e9a1-4a08-acff-2893ea294f10.png">
 
 ### Screenshot of mobile version:
-<img width="407" alt="Final mobile profile-card-component-main" src="https://user-images.githubusercontent.com/94437215/146400757-4ed3b76e-29ea-478f-95d2-510ad8815b15.png">
+![Screenshot 2024-02-19 133352](https://github.com/ggraciela/Challenge4_profile-card-component-main/assets/94437215/67d68d8c-b85a-4222-ba2b-4d854bfbac05)
